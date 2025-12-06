@@ -3,12 +3,12 @@ from tkinter import messagebox
 import subprocess
 import os
 
-# Oyun exe yolu (Steam üzerinden açacağımız için exe gerek yok, Steam URL kullanacağız)
+
 STEAM_APP_ID = "261550"  # Bannerlord Steam AppID
 
 def play_game():
     try:
-        # Steam üzerinden oyunu başlat
+        
         subprocess.Popen(["steam://rungameid/" + STEAM_APP_ID])
         messagebox.showinfo("Bilgi", "Game has Started")
     except Exception as e:
@@ -35,3 +35,4 @@ btn_play.pack(pady=5)
 btn_exit = tk.Button(root, text="EXIT", width=20, command=exit_launcher)
 btn_exit.pack(pady=5)
 root.mainloop()
+
