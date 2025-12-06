@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MBPartyTemplates>
+  <MBPartyTemplate id="looters_template">
+        <stacks>
+            <PartyTemplateStack min_value="12" max_value="100" troop="NPCCharacter.looter" />
+        </stacks>
+    </MBPartyTemplate>

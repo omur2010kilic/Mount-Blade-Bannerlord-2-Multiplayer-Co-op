@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MBItems>
+    <!-- Weapons // Swords -->
+    <Item id="ottoman_sword" name="Has Osmanli Kilici" tier="5" type="Weapon">
+        <Damage>55</Damage>
+        <Speed>3.2</Speed>
+        <Value>12000</Value>
+    </Item>
+
+    <Item id="lejionary_sword" name="İmparatorluk Ozel Yapim Lejyoner Kilici" tier="5" type="Weapon">
+        <Damage>54</Damage>
+        <Speed>3.2</Speed>
+        <Value>12000</Value>
+    </Item>
+
+    <!-- Foods -->
+    <Item id="chicken_rice" name="Tavuk ve Pilav" tier="3" type="Food">
+        <Value>56</Value>
+        <Food>25</Food> 
+    </Item>
+
+     <Item id="lentil_soup" name="Mercimek Corbasi" tier="2" type="Food">
+        <Value>50</Value>
+        <Food>12</Food> 
+    </Item>
+</MBItems>
