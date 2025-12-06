@@ -1,0 +1,44 @@
+==============================
+MOD NAME: Story Mode Co-Op
+==============================
+
+Description:
+------------
+Bu mod, Mount & Blade II: Bannerlord için özel eşyalar ve yiyecekler ekler.
+
+
+Files Included:
+---------------
+1. items.xml      -> Yeni eşyalar ve yiyecekler tanımlandı.
+2. troops.xml     -> (Opsiyonel) Eğer yeni asker türleri eklediyseniz.
+3. parties.xml    -> (Opsiyonel) Eğer yeni parti şablonları eklediyseniz.
+
+Installation:
+-------------
+1. Mod klasörünü açın:
+   Documents\Mount & Blade II Bannerlord\Modules\
+
+2. Yeni bir klasör oluşturun, örnek:
+   MyCustomMod
+
+3. Mod dosyalarınızı bu klasörün içine kopyalayın.
+
+4. Bannerlord'u başlatırken:
+   - Launcher üzerinden modu seçin
+   veya
+   - Komut satırıyla başlatın:
+     Bannerlord.exe --mod="C:\Users\<KullanıcıAdınız>\Documents\Mount & Blade II Bannerlord\Modules\MyCustomMod"
+
+Notes:
+------
+- Oyunu başlatmadan önce Bannerlord'un en son sürümünü yüklediğinizden emin olun.
+- Mevcut kayıtlarınızda değişiklik yapabilir, bu yüzden yedek almanız önerilir.
+- Mod ile ilgili hata veya eksiklikleri bildiriniz.
+
+Author:
+-------
+Woqzen
+
+Version:
+--------
+1.0
