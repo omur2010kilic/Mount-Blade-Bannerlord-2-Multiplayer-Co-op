@@ -13,6 +13,12 @@
         <Value>12000</Value>
     </Item>
 
+    <Item id="dark_sword" name="Karanlik Kilici" tier="5" type="Weapon">
+        <Damage>54</Damage>
+        <Speed>3.2</Speed>
+        <Value>12000</Value>
+    </Item>
+
     <!-- Foods -->
     <Item id="chicken_rice" name="Tavuk ve Pilav" tier="3" type="Food">
         <Value>56</Value>
@@ -23,4 +29,21 @@
         <Value>50</Value>
         <Food>12</Food> 
     </Item>
+
+    <Item id="bagel" name="Simit" tier="2" type="Food">
+        <Value>10</Value>
+        <Food>2</Food> 
+    </Item>
+
+    <Item id="tomato" name="Domates" tier="2" type="Food">
+        <Value>20</Value>
+        <Food>3</Food> 
+    </Item>
+  
+     <Item id="pepper" name="Biber" tier="1" type="Food">
+        <Value>6</Value>
+        <Food>1</Food> 
+    </Item>
+    
+
 </MBItems>

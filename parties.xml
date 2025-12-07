@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
 <MBPartyTemplates>
-  <MBPartyTemplate id="looters_template">
+    <MBPartyTemplate id="looters_template">
         <stacks>
             <PartyTemplateStack min_value="12" max_value="100" troop="NPCCharacter.looter" />
         </stacks>
     </MBPartyTemplate>
+
+    <MBPartyTemplate id="dark_lords_army">
+        <stacks>
+            <PartyTemplateStack min_value="50" max_value="100" troop="NPCCharacter.sturgia_heavy_spearman" />
+            <PartyTemplateStack min_value="30" max_value="60" troop="NPCCharacter.sturgia_veteran_spearman" />
+        </stacks>
+    </MBPartyTemplate>
+    
+    <MBPartyTemplate id="looter_ambush">
+    <stacks>
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.looter" />
+    </stacks>
+    <IsBandit>true</IsBandit>
+</MBPartyTemplate>
+
+</MBPartyTemplates>
