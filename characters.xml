@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MBCharacters>
+    <Character id="zeonica_caravan_master" name="Kervancı">
+        <Culture>empire</Culture>
+        <Location>town_zeonica</Location>
+        <TroopCount>1</TroopCount>
+        <Quests>
+            <Quest id="escort_caravan_quest" />
+        </Quests>
+    </Character>
+</MBCharacters>

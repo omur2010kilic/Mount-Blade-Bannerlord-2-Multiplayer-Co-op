@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MBCharacters>
+    <MBCharacter id="boss_dark_knight">
+        <Name>Kara Şövalye</Name>
+        <TroopClass>Infantry</TroopClass>
+        <Level>35</Level>
+        <HP>1500</HP>
+        <Damage>100</Damage>
+        <Speed>3.5</Speed>
+        <Armor>200</Armor>
+        <Equipment>
+            <Weapon>NPCWeapon.dark_sword</Weapon>
+        </Equipment>
+        <IsBoss>true</IsBoss>
+    </MBCharacter>
+</MBCharacters>
