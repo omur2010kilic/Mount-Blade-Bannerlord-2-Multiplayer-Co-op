@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TroopTemplates>
+
+ <TroopTemplate Id="ottoman_looters" Name="Turk Yagmacilar">
+    <TroopProperties>
+      <Health value="50"/>
+      <MeleeAttack value="10"/>
+      <MissileAttack value="0"/>
+      <Armor value="10"/>
+      <Speed value="2.0"/>
+    </TroopProperties>
+    <Equipment>
+      <Weapon value="sword_01"/>
+      <Armor value="armor_01"/>
+    </Equipment>
+  </TroopTemplate>
+
+
+
+
+</TroopTemplates>

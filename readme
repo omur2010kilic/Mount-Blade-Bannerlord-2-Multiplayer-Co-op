@@ -4,41 +4,47 @@ MOD NAME: Story Mode Co-Op
 
 Description:
 ------------
-Bu mod, Mount & Blade II: Bannerlord için özel eşyalar ve yiyecekler ekler.
+Bu mod, Mount & Blade II: Bannerlord için özel bir co-op deneyimi sunar. 
+Oyuna yeni eşyalar, yiyecekler, özel askerler ve görevler ekler. 
+Ayrıca kervan koruma görevleri ve savaşa özel müzikler ile oynanışı zenginleştirir.
+
+Features:
+---------
+1. **Yeni Eşyalar ve Silahlar**
+   - Osmanlı Kılıcı (ottoman_sword)
+   - Lejyoner Kılıcı (lejionary_sword)
+   
 
 
-Files Included:
----------------
-1. items.xml      -> Yeni eşyalar ve yiyecekler tanımlandı.
-2. troops.xml     -> (Opsiyonel) Eğer yeni asker türleri eklediyseniz.
-3. parties.xml    -> (Opsiyonel) Eğer yeni parti şablonları eklediyseniz.
+
+2. **Çok Oyunculu**
+   - Normal hikaye modunu bir arkadaşınızla beraber oynayabilirsiniz.
+   - Sunucuyu bilgisayarının RAM ve işlemcisi iyi olan bir arkadaşınız kurmalıdır, aksi takdirde performans düşüklüğü ve yüksek ping sorunları oluşabilir.
+   - Ama acı haber ki Henüz online sistemlerimiz tamam değil,singleplayer modunu normal oyundan oynarak görebilirsiniz.
+
+
+3- **Yeni Askeri Birimler**
+- Oyuna yeni askerler ekler:
+Yeniçeriler,İmparatorluk Yağmacıları,Türk Yağmacıları.
 
 Installation:
 -------------
-1. Mod klasörünü açın:
-   Documents\Mount & Blade II Bannerlord\Modules\
+1. Mod klasörünü açın:  
+2. Yeni bir klasör oluşturun, örnek:  
+3. Tüm mod dosyalarını bu klasörün içine kopyalayın.
+4. Bannerlord'u başlatın.
+5. Singleplayer → Mods kısmından modu aktifleştirin.
+6. Oyun açıldıktan sonra yeni bir save başlatmanız zorunludur.
+7. Arkadaşınızı davet edin ve eğlenin! 🎮
 
-2. Yeni bir klasör oluşturun, örnek:
-   MyCustomMod
+Warning:
+--------
+1. Online modu henüz tamamlanmadı,
+2. Bu mod henüz birkaç gündür geliştiriliyor, aman aman birşey beklemeyin. Hatalarınızı bizimle paylaşın.
+3. Korsan oyunlarda çalışmaz. (Denenmedi)
 
-3. Mod dosyalarınızı bu klasörün içine kopyalayın.
 
-4. Bannerlord'u başlatırken:
-   - Launcher üzerinden modu seçin
-   veya
-   - Komut satırıyla başlatın:
-     Bannerlord.exe --mod="C:\Users\<KullanıcıAdınız>\Documents\Mount & Blade II Bannerlord\Modules\MyCustomMod"
-
-Notes:
-------
-- Oyunu başlatmadan önce Bannerlord'un en son sürümünü yüklediğinizden emin olun.
-- Mevcut kayıtlarınızda değişiklik yapabilir, bu yüzden yedek almanız önerilir.
-- Mod ile ilgili hata veya eksiklikleri bildiriniz.
 
 Author:
 -------
-Woqzen
-
-Version:
---------
-1.0
+zyv0ra,Laesha,Ohhge

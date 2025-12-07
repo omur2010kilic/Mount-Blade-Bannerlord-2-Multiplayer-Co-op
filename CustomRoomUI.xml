@@ -1,0 +1,18 @@
+<Gui>
+  <Widget Name="RoomCodePanel" 
+          WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" 
+          SuggestedWidth="300" SuggestedHeight="100"
+          MarginLeft="10" MarginTop="10"
+          HorizontalAlignment="Left" VerticalAlignment="Top"
+          IsVisible="true">
+    <Children>
+      <TextWidget Name="RoomCodeText" Text="ROOM CODE: -----" FontSize="24" />
+      <EditBoxWidget Name="JoinCodeInput"
+                     Position="0,30" Size="200,30"
+                     Text="" />
+      <ButtonWidget Name="JoinButton"
+                    Position="210,30" Size="80,30"
+                    Text="Join" />
+    </Children>
+  </Widget>
+</Gui>

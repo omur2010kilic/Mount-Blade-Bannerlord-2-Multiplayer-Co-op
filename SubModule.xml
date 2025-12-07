@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Module>
-  <Name>StoryModeCoOp</Name>
-  <Id>StoryModeCoOp</Id>
-  <Version>1.0</Version>
-  <Tags>
-    <Tag>Gameplay</Tag>
-  </Tags>
-  <SubModuleClassType>MBSubModule</SubModuleClassType>
+  <Name value="StoryModeCoOp"/>
+  <Id value="StoryModeCoOp"/>
+  <Version value="v1.0.0"/>
+  <ModuleCategory value="Gameplay"/>
+
+  <SubModules>
+    <SubModule>
+      <Name value="StoryModeCoOp"/>
+      <DLLName value="StoryModeCoop.dll"/>
+      <SubModuleClassType value="StoryModeCoop.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none"/>
+      </Tags>
+    </SubModule>
+  </SubModules>
+
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="StoryMode"/>
+  </DependedModules>
 </Module>
